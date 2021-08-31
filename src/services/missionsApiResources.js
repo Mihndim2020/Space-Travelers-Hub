@@ -11,6 +11,7 @@ const getMissions = async () => {
       id: mission.mission_id,
       name: mission.mission_name,
       description: mission.description,
+      joined: false,
     },
   ));
   return missions;
