@@ -14,7 +14,6 @@ const getRockets = async () => {
       imageURL: rocket.flick_image[0],
     },
   ));
-  console.log(rockets);
   return rockets;
 };
 
