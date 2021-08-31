@@ -11,7 +11,7 @@ const getRockets = async () => {
       id: rocket.rocket_id,
       name: rocket.rocket_name,
       description: rocket.description,
-      imageURL: rocket.flick_image[0],
+      imageURL: rocket.flickr_images[0],
     },
   ));
   return rockets;
