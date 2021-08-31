@@ -9,18 +9,16 @@ function Rockets() {
 
   rocketHooks();
 
-  const rocketIDs = Object.keys(rockets);
-  rocketIDs.forEach(() => {
-    rockets.map((rocket) => rocketComponent.push(
-      <Rocket
-        key={rocket.id}
-        id={rocket.id}
-        name={rocket.name}
-        description={rocket.description}
-        imageURL={rocket.imageURL}
-      />,
-    ));
-  });
+  rockets.map((rocket) => rocketComponent.push(
+    <Rocket
+      key={rocket.id}
+      id={rocket.id}
+      name={rocket.name}
+      description={rocket.description}
+      imageURL={rocket.imageURL}
+    />,
+  ));
+
   return (
     <div>
       { rocketComponent }
