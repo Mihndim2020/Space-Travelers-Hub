@@ -1,44 +1,108 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# React & Redux group project - Space Travelers' Hub
 
-## Available Scripts
+> This is a web application that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. The application makes use of real live data from the SpaceX API. This application is build with React a JavaScript library and Redux for state management.
 
-In the project directory, you can run:
+## What was build in this part of the project:
 
-### `yarn start`
+ - React a JavaScript Library
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ - Redux for state management
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ - Use Webpack dependencies for better JS and CSS file performance.
 
-### `yarn test`
+ - Bootstrap 5.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Font awesome 5.
 
-### `yarn build`
+ - SpaceX API features.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Image Preview
+![Screenshot Main Page]()
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :movie_camera: [Video Presentation]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :star: [Live Demo]() :star:
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get a local copy up and running follow these simple example steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/Mihndim2020/Space-Travelers-Hub)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Click on a button named `code`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Copy the project URL as displayed on HTTPS tab
 
-## Learn More
+- If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
+
+  `$ git clone git@github.com:Mihndim2020/Space-Travelers-Hub.git` <em>Press Enter key</em><br>
+
+- Your local copy will be created.
+
+- Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+- After you get the project aiming to the desired directory, you need now to install dependencies by running npm install.
+
+
+### Github Actions
+
+To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+
+1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
+   
+2. Create the `feature/branch` and push.
+   
+3. Start working on your milestone as usual.
+   
+4. Open a PR from the `feature/branch` when your work is done.
+
+### Usage 
+
+- Make sure you have npm and node installed.
+
+- I recommend the use of VS code as a code editor, but you can use any code editor.
+
+- Run in your terminal `npm run start` to see the run the app in your default browser.
+
+- You should see the rockets page as the page loads. 
+
+- Click on the various links in the Navigation bar to Navigate to the different pages. 
+
+## Authors
+
+👤 **Marco Parra**
+
+- GitHub: [@mrigorir](https://github.com/mrigorir)
+- Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
+- LinkedIn: [@marco-alonso-parra](https://www.linkedin.com/in/marco-alonso-parra/)
+
+👤 **Mih Julius**
+
+- Github: [@Mihndim2020](https://github.com/Mihndim2020)
+- Twitter: [@mihndim](https://github.com/mih-julius)
+- Linkedin: [Mih Julius](https://www.linkedin.com/mih-julius)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/mrigorir/pokemon-world/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse Activities
+
+
+## 📝 License
+
+This project is [MIT](./LICENCE) licensed.
