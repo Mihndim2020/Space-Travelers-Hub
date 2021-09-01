@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../styles/navStyles.css';
+import '../../styles/nav.css';
 
 function Nav() {
   return (

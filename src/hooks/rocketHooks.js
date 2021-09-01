@@ -7,7 +7,6 @@ const rocketHooks = () => {
   const rockets = useSelector((state) => state.rockets);
 
   useEffect(() => {
-    // dispatch(getRocketsAction());
     if (!rockets.length) {
       dispatch(getRocketsAction());
     }

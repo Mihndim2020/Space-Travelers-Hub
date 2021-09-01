@@ -1,0 +1,9 @@
+.profileList:nth-child(1n) {
+  background-color: #e3e6eb;
+  border-bottom-color: gray;
+}
+
+.profileList:nth-child(2n) {
+  background-color: rgb(247, 232, 232);
+  border-bottom-color: black;
+}

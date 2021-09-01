@@ -1,19 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { joinButtonAction } from '../../redux/missions/missions';
+import Button from './Button';
+import Badge from './Badge';
 
-const Mission = ({ id, name, description }) => (
+const Mission = ({
+  id, name, description, joined,
+}) => (
   <tr id={id}>
     <td>{name}</td>
     <td>{description}</td>
     <td>
-      <button type="button">
-        NOT a MEMBER
-      </button>
+      {!joined && (
+        <Badge text="NOT A MEMBER" />
+      )}
+      {joined && (
+        <Badge text="Active Member" />
+      )}
     </td>
     <td>
-      <button type="button">
-        JOIN MISSION
-      </button>
+      {!joined && (
+        <Button text="Join Mission" click={() => joinButtonAction(id)} id={id} />
+      )}
+      {joined && (
+        <Button text="Leave Mission" click={() => joinButtonAction(id)} id={id} />
+      )}
     </td>
   </tr>
 );
@@ -22,6 +33,7 @@ Mission.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  joined: PropTypes.bool.isRequired,
 };
 
 export default Mission;
