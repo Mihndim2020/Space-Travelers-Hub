@@ -1,15 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { reserveRocketAction } from '../../redux/rockets/rockets';
+import Button from './Button';
+import Badge from './Badge';
 
 const Rocket = ({
-  id, name, description, imageURL,
+  id, name, description, imageURL, reserved,
 }) => (
+
   <div className="rocket-info" id={id}>
     <p>{name}</p>
     <p>{description}</p>
     <img src={imageURL} alt="RocketImage" />
-    <button type="button">Reserve Rocket</button>
+    <div>
+      {!reserved && (
+      <Badge text="NOT RESERVED" />
+      )}
+      {reserved && (
+      <Badge text="RESERVED" />
+      )}
+    </div>
+    <div>
+      {!reserved && (
+        <Button text="RESERVE" click={() => reserveRocketAction(id)} id={id} />
+      )}
+      {reserved && (
+        <Button text="CANCEL RESERVATION" click={() => reserveRocketAction(id)} id={id} />
+      )}
+    </div>
   </div>
+
 );
 
 Rocket.propTypes = {
@@ -17,6 +37,7 @@ Rocket.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageURL: PropTypes.string.isRequired,
+  reserved: PropTypes.bool.isRequired,
 };
 
 export default Rocket;
