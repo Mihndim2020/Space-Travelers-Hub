@@ -21,7 +21,7 @@
 
 ## :movie_camera: [Video Presentation](https://drive.google.com/file/d/10fIh7VfDbRXLKAD_i51EORC-IixbjvEJ/view?usp=sharing)
 
-## :star: [Live Demo](https://inspiring-poitras-724f4e.netlify.app/profile) :star:
+## :star: [Live Demo](https://lucid-heyrovsky-ce6db2.netlify.app/) :star:
 
 ## Getting Started
 
