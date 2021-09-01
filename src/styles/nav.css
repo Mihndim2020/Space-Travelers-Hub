@@ -1,3 +1,23 @@
-li {
-  list-style-type: none;
+a.text-primary.active {
+  background-color: lightblue;
+}
+
+a.text-success.active {
+  background-color: lightgreen;
+}
+
+a.text-danger.active {
+  background-color: rgb(235, 171, 160);
+}
+
+a.text-primary.active,
+a.text-success.active,
+a.text-danger.active {
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .not-in-movile-size {
+    display: none;
+  }
 }
