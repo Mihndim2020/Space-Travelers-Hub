@@ -10,7 +10,7 @@ const Rocket = ({
   <div className="row mb-5">
     <div className="col-md-12">
       <div className="d-flex align-items-start">
-        <div>
+        <div className="col-md-">
           <img src={imageURL} alt="RocketImage" width="250" height="250" />
         </div>
         <div className="ms-3">

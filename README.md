@@ -17,11 +17,11 @@
  - SpaceX API features.
 
 ## Image Preview
-![Screenshot Main Page]()
+![Screenshot Main Page](./src/assets/images/capture.jpg)
 
-## :movie_camera: [Video Presentation]()
+## :movie_camera: [Video Presentation](https://drive.google.com/file/d/10fIh7VfDbRXLKAD_i51EORC-IixbjvEJ/view?usp=sharing)
 
-## :star: [Live Demo]() :star:
+## :star: [Live Demo](https://inspiring-poitras-724f4e.netlify.app/profile) :star:
 
 ## Getting Started
 
