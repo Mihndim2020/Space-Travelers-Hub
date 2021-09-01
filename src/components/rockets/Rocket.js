@@ -13,9 +13,6 @@ const Rocket = ({
     <p>{description}</p>
     <img src={imageURL} alt="RocketImage" />
     <div>
-      {/* {!reserved && (
-      <Badge text="NOT RESERVED" />
-      )} */}
       {reserved && (
       <Badge text="RESERVED" />
       )}
