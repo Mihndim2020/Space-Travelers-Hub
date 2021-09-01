@@ -1,5 +1,6 @@
 import React from 'react';
 import DisplayMissionsLists from './missionsProfile/DisplayMissionsLists';
+import DisplayRocketsLists from './rocketsProfile/DisplayRocketsLists';
 import '../../styles/profile.css';
 
 function Profile() {
@@ -14,7 +15,7 @@ function Profile() {
       <div className="col-md-6">
         <h1 className="mb-4"> My Rockets </h1>
         <ul className="list-unstyled border border-secondary border-2 rounded shadow-sm">
-          <DisplayMissionsLists />
+          <DisplayRocketsLists />
         </ul>
       </div>
     </div>

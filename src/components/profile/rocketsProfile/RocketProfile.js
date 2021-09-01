@@ -9,7 +9,7 @@ function RocketProfile({ name }) {
   );
 }
 
-MissionProfile.propTypes = {
+RocketProfile.propTypes = {
   name: PropTypes.string.isRequired,
 };
 
