@@ -16,6 +16,7 @@ function Rockets() {
       name={rocket.name}
       description={rocket.description}
       imageURL={rocket.imageURL}
+      reserved={rocket.reserved}
     />,
   ));
 
