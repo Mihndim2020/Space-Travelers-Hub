@@ -1,6 +1,7 @@
 import getMissions from '../../services/missionsApiResources';
 
 const GET_MISSIONS = 'SpaceTravelerHub/missions/GET_MISSIONS';
+const JOIN_BUTTON = 'SpaceTravelerHub/missions/JOIN_BUTTON';
 
 const getMissionsAction = () => async (dispatch) => {
   const missions = await getMissions();
@@ -11,13 +12,23 @@ const getMissionsAction = () => async (dispatch) => {
   });
 };
 
-const missionsReducer = (state = [], action) => {
-  switch (action.type) {
+const joinButtonAction = (id) => ({
+  type: JOIN_BUTTON,
+  payload: id,
+});
+
+const missionsReducer = (state = [], act) => {
+  switch (act.type) {
     case GET_MISSIONS:
-      return [...state, ...action.payload];
+      return [...state, ...act.payload];
+    case JOIN_BUTTON:
+      return state.map((mission) => {
+        if (mission.id === act.payload) return { ...mission, joined: !mission.joined };
+        return mission;
+      });
     default:
       return state;
   }
 };
 
-export { getMissionsAction, missionsReducer };
+export { getMissionsAction, joinButtonAction, missionsReducer };
