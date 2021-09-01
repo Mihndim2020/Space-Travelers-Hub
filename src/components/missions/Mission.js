@@ -14,21 +14,17 @@ const Mission = ({
       {!joined && (
         <Badge text="NOT A MEMBER" />
       )}
-      ;
       {joined && (
         <Badge text="Active Member" />
       )}
-      ;
     </td>
     <td>
       {!joined && (
         <Button text="Join Mission" click={() => joinButtonAction(id)} id={id} />
       )}
-      ;
       {joined && (
         <Button text="Leave Mission" click={() => joinButtonAction(id)} id={id} />
       )}
-      ;
     </td>
   </tr>
 );

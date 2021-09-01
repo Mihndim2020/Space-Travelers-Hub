@@ -9,17 +9,19 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Switch>
-        <Route path="/profile">
-          <Profile />
-        </Route>
-        <Route path="/missions">
-          <Missions />
-        </Route>
-        <Route path="/">
-          <Rockets />
-        </Route>
-      </Switch>
+      <div className="container">
+        <Switch>
+          <Route path="/profile">
+            <Profile />
+          </Route>
+          <Route path="/missions">
+            <Missions />
+          </Route>
+          <Route path="/">
+            <Rockets />
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
