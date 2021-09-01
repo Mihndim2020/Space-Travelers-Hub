@@ -21,7 +21,7 @@ function Rockets() {
   ));
 
   return (
-    <div>
+    <div className="my-5">
       { rocketComponent }
     </div>
   );

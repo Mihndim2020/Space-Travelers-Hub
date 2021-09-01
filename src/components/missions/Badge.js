@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Badge({ text }) {
+function Badge({ text, badge }) {
   return (
-    <button type="button">
+    <span className={badge}>
       {text}
-    </button>
+    </span>
   );
 }
 
 Badge.propTypes = {
   text: PropTypes.string.isRequired,
+  badge: PropTypes.string.isRequired,
 };
 
 export default Badge;

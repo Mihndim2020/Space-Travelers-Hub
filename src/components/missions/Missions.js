@@ -9,13 +9,13 @@ function Missions() {
   hooks();
 
   return (
-    <table border="1">
+    <table className="table table-bordered table-striped table-responsive border-secondary my-5">
       <thead>
         <tr>
           <th>Mission</th>
           <th>Description</th>
           <th>Status</th>
-          <th> </th>
+          <th style={{ opacity: 0 }}>SomeLoremLpsumHere.</th>
         </tr>
       </thead>
       <tbody>

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 function Badge({ text }) {
   return (
-    <button type="button">
+    <span className="badge bg-success p-2 me-2 fs-6 fw-normal">
       {text}
-    </button>
+    </span>
   );
 }
 
