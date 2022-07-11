@@ -100,7 +100,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse Activities
+- Microverse Community
 
 
 ## 📝 License
