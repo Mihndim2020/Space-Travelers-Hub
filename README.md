@@ -101,6 +101,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse Community
+- MDN
 
 
 ## 📝 License
