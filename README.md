@@ -47,6 +47,8 @@ To get a local copy up and running follow these simple example steps:
 
 - After you get the project aiming to the desired directory, you need now to install dependencies by running npm install.
 
+- To start the project, enter npm start. 
+
 
 ### Github Actions
 
