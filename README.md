@@ -9,11 +9,6 @@
  - Redux for state management
 
  - Use Webpack dependencies for better JS and CSS file performance.
- - Bootstrap 5.
-
- - Font awesome 5.
-
- - SpaceX API features.
 
 
 ## Image Preview
