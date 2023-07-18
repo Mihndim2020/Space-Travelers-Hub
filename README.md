@@ -12,9 +12,6 @@
 
  - Bootstrap 5.
    
- - Font awesome 5.
-
- - SpaceX API features.
 
 
 ## Image Preview
