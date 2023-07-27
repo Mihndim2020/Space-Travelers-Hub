@@ -46,7 +46,8 @@ To get a local copy up and running follow these simple example steps:
 
 - Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-- After you get the project aiming to the desired directory, you need now to install dependencies by running npm install.
+
+
 
 
 
