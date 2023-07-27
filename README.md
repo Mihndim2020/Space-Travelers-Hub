@@ -46,11 +46,9 @@ To get a local copy up and running follow these simple example steps:
 
 - Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
+- cd into the directory and run npm install to install dependency
 
-
-
-
-
+- Then npm start to start the dev server. 
 
 ### Github Actions
 
