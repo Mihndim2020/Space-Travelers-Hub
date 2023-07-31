@@ -60,7 +60,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
    
 3. Start working on your milestone as usual.
    
-- To start the project, enter npm run start. 
+4. To start the project, enter npm run start. 
 
 ### Usage 
 
