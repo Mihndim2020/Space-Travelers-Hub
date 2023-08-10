@@ -59,8 +59,10 @@ To make sure the linters' checks using Github Actions work properly, you should 
 2. Create the `feature/branch` and push.
    
 3. Start working on your milestone as usual.
+
+4. Run npm install to install dependencies
    
-4. To start the project, enter npm run start. 
+5. To start the project, enter npm run start. 
 
 ### Usage 
 
