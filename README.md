@@ -48,7 +48,7 @@ To get a local copy up and running follow these simple example steps:
 
 - cd into the directory and run npm install to install dependency
 
-- Then npm start to start the dev server. 
+
 
 ### Github Actions
 
