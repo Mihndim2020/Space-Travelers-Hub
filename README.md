@@ -17,8 +17,6 @@
  - SpaceX API features.
 
 
-
-
 ## Image Preview
 ![Screenshot Main Page](./src/assets/images/capture.jpg)
 
