@@ -108,7 +108,7 @@ Give a ⭐️ if you like this project!
 - MDN
 - Freecodecamp
 - Udemy
-
+- Tunga Academy
 
 ## 📝 License
 
