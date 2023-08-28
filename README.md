@@ -74,7 +74,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 - You should see the rockets page as the page loads.
  
-
+- Click on the various links in the Navigation bar to Navigate to the different pages. 
 
 ## Authors
 
