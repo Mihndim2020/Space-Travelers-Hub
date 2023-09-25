@@ -109,6 +109,7 @@ Give a ⭐️ if you like this project!
 - Freecodecamp
 - Udemy
 - Tunga Academy
+- Coursera
 
 ## 📝 License
 
