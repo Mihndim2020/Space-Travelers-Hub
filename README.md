@@ -15,7 +15,6 @@
  - Font awesome 5.
 
 
-
 ## Image Preview
 ![Screenshot Main Page](./src/assets/images/capture.jpg)
 
