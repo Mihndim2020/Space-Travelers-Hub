@@ -14,7 +14,6 @@
    
  - Font awesome 5.
 
- - SpaceX API features.
 
 
 ## Image Preview
