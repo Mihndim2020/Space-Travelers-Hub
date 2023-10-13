@@ -1,6 +1,6 @@
 # React & Redux group project - Space Travelers' Hub
 
-> This is a web application that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. The application makes use of real live data from the SpaceX API. This application is built with React a JavaScript library and Redux for state management.
+> This is a web application that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. A user can book for a particular mission,  The application makes use of real live data from the SpaceX API. This application is built with React a JavaScript library and Redux for state management.
 
 ## This project was built with;
 
