@@ -66,7 +66,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 - Make sure you have node and npm modules installed.
 
-- I recommend the use of VS code as a code editor, but you can use any code editor.
+- We recommend the use of VS code as a code editor, but you can use any code editor.
 
 - Run in your terminal `npm run start` to see the run the app in your default browser.
 
