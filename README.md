@@ -107,7 +107,8 @@ Give a ⭐️ if you like this project!
 - Microverse Community
 - MDN
 - Udemy
-
+- Tunga Academy
+- Freecodecamp
 
 ## 📝 License
 
