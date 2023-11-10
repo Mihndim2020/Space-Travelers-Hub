@@ -24,7 +24,7 @@
 
 ## Getting Started
 
-
+To get a local copy up and running follow these simple example steps below:
 
 - On the project, GitHub page, navigate to the [main page of the repository](https://github.com/Mihndim2020/Space-Travelers-Hub)
 
