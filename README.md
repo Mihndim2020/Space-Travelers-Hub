@@ -66,7 +66,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 ### Usage 
 
-- Make sure you have node and npm modules installed.
+
 
 - We recommend the use of VS code as a code editor, but you can use any code editor.
 
