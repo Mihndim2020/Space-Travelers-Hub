@@ -62,7 +62,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 4. Run npm install to install dependencies
    
-5. To start the project, enter npm run start.
+
 
 ### Usage 
 
