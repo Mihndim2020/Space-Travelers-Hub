@@ -50,7 +50,6 @@ To get a local copy up and running follow these simple example steps below:
 
 - The page should load on your default browser.
 
-
 ### Github Actions
 
 To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
