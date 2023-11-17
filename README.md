@@ -48,7 +48,6 @@ To get a local copy up and running follow these simple example steps below:
 
 - Then npm start to start the dev server.
   
-- The page should load on your default browser.
 
 ### Github Actions
 
